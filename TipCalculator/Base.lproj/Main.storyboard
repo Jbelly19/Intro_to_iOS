@@ -26,7 +26,7 @@
                                 </connections>
                             </slider>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uuA-MX-9bV">
-                                <rect key="frame" x="195.5" y="249" width="209" height="29"/>
+                                <rect key="frame" x="195" y="249" width="209" height="29"/>
                                 <animations/>
                                 <segments>
                                     <segment title="5%"/>
@@ -35,6 +35,7 @@
                                     <segment title="15%"/>
                                     <segment title="20%"/>
                                 </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
                                     <action selector="percentTipControlChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="V8z-Lb-nmD"/>
                                 </connections>
@@ -43,29 +44,38 @@
                                 <rect key="frame" x="458" y="289.5" width="31.5" height="20.5"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tTa-2e-huj">
                                 <rect key="frame" x="300" y="365" width="0.0" height="0.0"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="glF-RJ-C2Y">
                                 <rect key="frame" x="300" y="403.5" width="0.0" height="0.0"/>
                                 <animations/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide To Enter Meal Amount" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2dC-vw-X7V">
+                                <rect key="frame" x="143.5" y="89" width="313" height="29"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2dC-vw-X7V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Xs-kS-3f0"/>
                             <constraint firstItem="tTa-2e-huj" firstAttribute="top" secondItem="haO-51-agh" secondAttribute="bottom" constant="50" id="5ek-yt-Diz"/>
                             <constraint firstItem="tTa-2e-huj" firstAttribute="centerX" secondItem="haO-51-agh" secondAttribute="centerX" id="7mn-h4-CFa"/>
+                            <constraint firstItem="uuA-MX-9bV" firstAttribute="top" secondItem="2dC-vw-X7V" secondAttribute="bottom" constant="8" symbolic="YES" id="8VI-Sx-9e4"/>
                             <constraint firstItem="qpK-Gz-vaR" firstAttribute="leading" secondItem="haO-51-agh" secondAttribute="trailing" constant="8" symbolic="YES" id="9oH-bv-lmA"/>
                             <constraint firstItem="qpK-Gz-vaR" firstAttribute="centerY" secondItem="haO-51-agh" secondAttribute="centerY" id="Asa-ak-mOL"/>
                             <constraint firstItem="uuA-MX-9bV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NYt-So-Atg"/>
@@ -73,9 +83,15 @@
                             <constraint firstItem="haO-51-agh" firstAttribute="top" secondItem="uuA-MX-9bV" secondAttribute="bottom" constant="8" symbolic="YES" id="UqB-X0-fIh"/>
                             <constraint firstItem="haO-51-agh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hFz-0D-An3"/>
                             <constraint firstItem="haO-51-agh" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="1:2" id="qdI-sf-FiE"/>
+                            <constraint firstItem="2dC-vw-X7V" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="25" id="rcT-QH-tHU"/>
                             <constraint firstItem="glF-RJ-C2Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vYg-4M-uXN"/>
                             <constraint firstItem="glF-RJ-C2Y" firstAttribute="top" secondItem="tTa-2e-huj" secondAttribute="bottom" constant="38.5" id="x0h-OW-q3h"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8VI-Sx-9e4"/>
+                            </mask>
+                        </variation>
                     </view>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Tip Calculator " id="9ma-iA-6Qi">
