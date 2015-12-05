@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		035829FF1C13727E00D34341 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 035829FE1C13727E00D34341 /* .gitignore */; };
 		03F9E65B1C1117C6002BB5B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9E65A1C1117C6002BB5B4 /* AppDelegate.swift */; };
 		03F9E65D1C1117C6002BB5B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F9E65C1C1117C6002BB5B4 /* ViewController.swift */; };
 		03F9E6601C1117C6002BB5B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F9E65E1C1117C6002BB5B4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		035829FE1C13727E00D34341 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		03F9E6571C1117C6002BB5B4 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F9E65A1C1117C6002BB5B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		03F9E65C1C1117C6002BB5B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -40,6 +42,7 @@
 		03F9E64E1C1117C6002BB5B4 = {
 			isa = PBXGroup;
 			children = (
+				035829FE1C13727E00D34341 /* .gitignore */,
 				03F9E6591C1117C6002BB5B4 /* TipCalculator */,
 				03F9E6581C1117C6002BB5B4 /* Products */,
 			);
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				035829FF1C13727E00D34341 /* .gitignore in Resources */,
 				03F9E6651C1117C6002BB5B4 /* LaunchScreen.storyboard in Resources */,
 				03F9E6621C1117C6002BB5B4 /* Assets.xcassets in Resources */,
 				03F9E6601C1117C6002BB5B4 /* Main.storyboard in Resources */,
@@ -291,6 +295,7 @@
 				03F9E66B1C1117C6002BB5B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
