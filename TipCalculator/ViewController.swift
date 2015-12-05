@@ -23,12 +23,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.
+        self.view.backgroundColor = UIColor.lightGrayColor()
     }
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
        let index = NSUserDefaults.standardUserDefaults().integerForKey("defaultTipIndex")
         percentTipControl.selectedSegmentIndex = index
+        
     }
 
     override func didReceiveMemoryWarning() {
